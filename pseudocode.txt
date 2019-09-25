@@ -1,0 +1,64 @@
+/* soal pertama*/
+START
+
+INPUT 'masa' with any value (number)
+INPUT 'a' with any value (number)
+INPUT 'ΣF' with value 0 (number)
+
+CALCULATE 'masa' * 'a'
+SET 'ΣF' value with calculation result
+
+DISPLAY 'ΣF'
+
+END
+
+/*soal kedua*/
+
+START
+
+INPUT 'tahun' with any value (number)
+    
+IF 'tahun'% 4===0 
+    then if 'tahun' % 100 !=== 0 'tahun kabisat'
+    else 
+    IF 'tahun'% 4===0
+    then if 'tahun' % 100 === 0 
+    then if 'tahun' % 400 === 0 'tahun kabisat'
+
+else  'tahun' bukan tahun kabisat
+
+END
+
+
+/* soal ketiga*/
+
+START
+INPUT 'laundry' with 0
+WHILE 'laundry' <20
+    ADD 'BAJU' by 1
+
+DISPLAY 'MESIN CUCI ON'
+
+END
+
+/*soal keempat*/
+START
+STORE "count" to 0
+WHILE "count" < 40
+ADD "count" by 1
+DISPLAY "count"
+
+INPUT "kuku pendek" with "count % 2 equal to 0"
+INPUT "kuku panjang" with "count % 2 not equal to 0"
+
+IF "count" mod 2 equal to 0
+    DISPLAY "mendapat pujian dari guru"
+ELSE
+    DISPLAY "mendapat hukuman dari guru"
+
+
+
+
+
+
+
