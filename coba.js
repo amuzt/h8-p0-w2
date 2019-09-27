@@ -1,8 +1,8 @@
-var a = 5;
-for (b = a ; b >0 ; b-=1){
+var row2 = 5;
+for (b = row2 ; b>0 ; b-=1){
   bintang = '';
-  for (c = a; c>0; c-=1) {
+  for (c = row2-b ; c>=0; c-=1) {
     bintang +=  '*'; 
   }
-  console.log( bintang )
+  console.log(  bintang )
 }
